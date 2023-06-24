@@ -1,0 +1,33 @@
+                      INITIAL CONFIG 
+-----------------------------------------------------------
+git config --global user.name "Geek007"
+
+git config --global user.email oiwoh.gabriel@hotmail.com
+
+-----------------------------------------------------------
+
+mkdir gitlab
+cd gitlab
+> git init
+
+touch file1
+> gedit file1
+
+git add file1
+git status
+
+git commit file1 -m " first file1"
+git log
+
+git branch -M main
+git remote add origin https://github.com/arch-angel-gabriel/Gitlab.git
+git push -u origin main
+
+
+
+-------------------------------------
+ GENERATE TOKEN FOR GITHUB PUSH-PULL
+
+ https://levelup.gitconnected.com/fix-password-authentication-github-3395e579ce74
+
+ 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
